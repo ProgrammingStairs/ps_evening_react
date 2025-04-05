@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin:0px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#header{
+    height: 60px;
+    background-color: white;
+}
+#logo{
+    height: 60px;
+}
+#nav{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    height: 40px;
+    background-color: crimson;
+}
+#nav ul{
+    padding-top: 10px;
+    list-style: none;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin:45px;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    width: 150px;
+    margin-left: 440px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+#nav ul li ul li{
+    margin-left: -30px;
+    line-height: 35px;
+}
+#nav a:hover{
+    color:black;
+}
+#banner{
+    height: 530px;
+    background-color: teal;
+}
+#bannerImg{
+    height:530px;
+    width: 100%;
+}
+#mqdemo{
+    padding: 15px;
+    font-size: 18px;
+    height: 20px;
+    font-weight: bolder;
+    background-color:whitesmoke;
+}
+#content{
+    padding: 60px;
+}
+#content h2{
+    color:crimson;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#content p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+}
+#box{
+    height:400px;
+    padding: 40px;
+    background-color: white;
+}
+#subbox{
+    height: 380px;
+    background-color: whitesmoke;
+    width:273px;
+    float: left;
+    margin: 10px;
+}
+#boxImg{
+    height:200px;
+    width: 100%;
+}
+#innerbox{
+    margin: 3% 5%;
+    text-align: justify;
+}
+#innerbox button{
+    height: 30px;
+    width: 100%;
+    border-width: 0px;
+    background-color: crimson;
+    color:white;
+    font-size: 17px;
+    border-radius: 12px;
+}
+#innerbox button:hover{
+    background-color: black;
+    color:white;
+}
+#about{
+    height: 450px;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+#leftabout{
+    height:320px;
+    width:320px;
+    border-radius: 50%;
+    margin-top: 5%;
+    /* background-color: green; */
+    float: left;
+}
+#aboutimg{
+    height:320px;
+    width:320px;
+    border-radius: 50%;
+}
+#rightabout{
+    height:300px;
+    width:710px;
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* background-color: green; */
+    float: left;
+    font-size: 18px;
+    text-align: justify;
+}
+#contact{
+    height:450px;
+    padding: 50px;
+}
+#contact1,#contact2,#contact3{
+    height: 360px;
+    width: 180px;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 19px;
+    margin: 15px;
+    float: left;
+}
+#contact1 ul li a,#contact2 ul li a{
+    text-decoration: none;
+    color:black;
+    line-height: 35px;
+}
+#contact4{
+    height: 400px;
+    width: 370px;
+    background-color: whitesmoke;
+    margin: 15px;
+    float: left;
+}
+#footer{
+    font-size: 19px;
+}
