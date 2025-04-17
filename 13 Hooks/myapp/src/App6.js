@@ -21,14 +21,14 @@ const UnMemoized = (props)=>{
 
 function App() {  
   const [count,setCount] = useState(0);  
-  const [fname,setFname] = useState('Andrew');
+  const [fname,setFname] = useState('Andrew andy...');
   const [lname,setLname] = useState('Anderson');
-//   const memoized = useMemo(()=><Memoized fname={fname} lname={lname}/>,[fname,lname]);
+  const memoized = useMemo(()=><Memoized fname={fname} lname={lname}/>,[fname,lname]);
   return (<>
         <h2>Count : {count}</h2>
         <button onClick={()=>{setCount(count+1)}}>Increment</button>
         <h1>Memoized Function</h1>
-        <Memoized fname={fname} lname={lname}/>
+        {memoized}
 
         <h1>UnMemoized Function</h1>
         <UnMemoized fname={fname} lname={lname}/>            
